@@ -29,10 +29,14 @@ var config = {
 		{
 			module: "alert",
 		},
-		{
+		/*{
 			module: "updatenotification",
 			position: "top_bar"
-		},
+		},*/
+		{
+			module: "helloworld",
+			position: "top_bar"
+		}
 		{
 			module: "clock",
 			position: "top_left"
