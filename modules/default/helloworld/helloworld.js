@@ -22,9 +22,13 @@ Module.register("helloworld",{
 		return this.config;
 	},
 
+	myhide();
+
+	function myhide(){
 	if(this.config.text == "helloworld"){
-		currentweather.hide(0, {lockstring:"helloworld"});
+		currentweather.hide(0, {lockstring:this.identifier});
 	}
+};
 
 
 });
