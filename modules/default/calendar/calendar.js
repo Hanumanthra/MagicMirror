@@ -40,7 +40,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+				url: "http://www.calendarlabs.com/templates/ical/IN-Holidays.ics",
 			},
 		],
 		titleReplace: {
