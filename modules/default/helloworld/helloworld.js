@@ -20,5 +20,11 @@ Module.register("helloworld",{
 
 	getTemplateData: function () {
 		return this.config;
+	},
+
+	if(this.config.text === "helloworld"){
+		currentweather.hide(0, {lockstring:"helloworld"});
 	}
+
+
 });
