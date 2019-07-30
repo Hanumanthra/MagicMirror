@@ -20,6 +20,6 @@ Module.register("helloworld",{
 
 	getTemplateData: function () {
 		return this.config;
-	},
+	}
 
 });
