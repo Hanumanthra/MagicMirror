@@ -25,7 +25,7 @@ Module.register("helloworld",{
 	myhide();
 
 	function myhide(){
-	if(this.config.text == "helloworld"){
+	if(this.config.text == "Innovation Garage-NITW"){
 		currentweather.hide(0, {lockstring:this.identifier});
 	}
 };
