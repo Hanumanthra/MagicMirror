@@ -22,7 +22,4 @@ Module.register("helloworld",{
 		return this.config;
 	},
 
-	currentweather.hide();
-
-
 });
