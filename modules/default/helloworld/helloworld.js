@@ -22,7 +22,7 @@ Module.register("helloworld",{
 		return this.config;
 	},
 
-	if(this.config.text === "helloworld"){
+	if(this.config.text == "helloworld"){
 		currentweather.hide(0, {lockstring:"helloworld"});
 	}
 
