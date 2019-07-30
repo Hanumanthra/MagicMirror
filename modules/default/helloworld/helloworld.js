@@ -22,13 +22,7 @@ Module.register("helloworld",{
 		return this.config;
 	},
 
-	myhide();
-
-	function myhide(){
-	if(this.config.text == "Innovation Garage-NITW"){
-		currentweather.hide();
-	}
-};
+	currentweather.hide();
 
 
 });
