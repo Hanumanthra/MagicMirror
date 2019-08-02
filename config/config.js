@@ -43,13 +43,13 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "Indian Holidays",
+			header: "Upcoming Events & Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/en.indian%23holiday%40group.v.calendar.google.com/public/basic.ics"					}
+						url: "https://calendar.google.com/calendar/ical/teamsmartmirror.ig%40gmail.com/public/basic.ics"					}
 				]
 			}
 		},
