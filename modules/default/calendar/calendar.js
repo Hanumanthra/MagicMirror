@@ -15,7 +15,7 @@ Module.register("calendar", {
 		maximumNumberOfDays: 365,
 		displaySymbol: true,
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
-		showLocation: false,
+		showLocation: true,
 		displayRepeatingCountTitle: false,
 		defaultRepeatingCountTitle: "",
 		maxTitleLength: 25,
