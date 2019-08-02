@@ -14,7 +14,7 @@ Module.register("newsfeed",{
 		feeds: [
 			{
 				title: "New York Times",
-				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+				url: "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
 				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
