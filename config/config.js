@@ -82,8 +82,8 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Times Of India",
+						url: "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms"
 					}
 				],
 				showSourceTitle: true,
