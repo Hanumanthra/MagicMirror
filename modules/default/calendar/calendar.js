@@ -11,14 +11,14 @@ Module.register("calendar", {
 
 	// Define module defaults
 	defaults: {
-		maximumEntries: 5, // Total Maximum Entries
+		maximumEntries: 3, // Total Maximum Entries
 		maximumNumberOfDays: 365,
 		displaySymbol: true,
 		defaultSymbol: "calendar", // Fontawesome Symbol see http://fontawesome.io/cheatsheet/
 		showLocation: true,
-		displayRepeatingCountTitle: false,
+		displayRepeatingCountTitle: true,
 		defaultRepeatingCountTitle: "",
-		maxTitleLength: 25,
+		maxTitleLength: 100,
 		wrapEvents: false, // wrap events to multiple lines breaking at maxTitleLength
 		maxTitleLines: 3,
 		fetchInterval: 1 * 60 * 1000, // Update every 5 minutes.
