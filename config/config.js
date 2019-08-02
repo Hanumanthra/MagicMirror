@@ -43,7 +43,7 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Indian Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
