@@ -405,6 +405,7 @@ var CalendarFetcher = function(url, reloadInterval, excludedEvents, maximumEntri
 			title = (typeof event.summary.val !== "undefined") ? event.summary.val : event.summary;
 		} else if (event.description) {
 			title = event.description;
+			console.log(title);
 		}
 
 		return title;
